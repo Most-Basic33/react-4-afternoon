@@ -22,7 +22,7 @@ export default class About extends Component {
               render={() => (
                 <div>
                   <p>
-                    A late night would scare any linguist away. Nothing of importance has your skin crawling. Sevenworm woke the prime minister. A glittering gem rains heavily. Lonely Henry stands upon somebody else's legs. Lonely Henry stands upon somebody else's legs. The person you were before loves to love. Spam is always a pleasure. A wave loudly clashing against a long shoreline is like a summer breeze. Utter nonsense visits Japan in the winter.
+                    A late night would scare any linguist away. Nothing of importance has your skin crawling. Sevenworm woke the prime minister. A glittering gem rains heavily. Lonely Henry stands upon somebody else's legs. Lonely Henry never gets paid twice. The person you were before loves to love. Spam is always a pleasure. A wave loudly clashing against a long shoreline is like a summer breeze. Utter nonsense visits Japan in the winter. That girl you dreampt about last night, remind me later..i got something to tell you about her.
                </p>
                 </div>
               )}
