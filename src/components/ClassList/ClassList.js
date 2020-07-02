@@ -10,6 +10,9 @@ export default class ClassList extends Component {
       students: []
     }
   }
+  goBack=()=>{
+    this.props.history.goBack()
+  }
   //utilize the match method from react-router-dom object
   componentDidMount() {
     axios.get(`http://localhost:3005/students?class=${this.props.match.params.class}`)
@@ -36,6 +39,7 @@ export default class ClassList extends Component {
         <h1>{this.props.match.params.class}</h1>
         <h2>ClassList:</h2>
         {mappedStudents}
+        <h3 onClick={this.goBack} className='return' >Return Back To Home </h3> 
 
       </div>
     )
